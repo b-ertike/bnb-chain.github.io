@@ -21,8 +21,11 @@
         <link rel="next" href="../developers/quick-guide/">
       
       
+        
+      
+      
       <link rel="icon" href="../../assets/bnb.svg">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.18">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
     
@@ -30,10 +33,10 @@
     
 
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -66,11 +69,11 @@
     
       <link rel="stylesheet" href="../../assets/style/components/footer-nav.css">
     
-      <link rel="stylesheet" href="../../assets/style/components/footer.css">
+      <link rel="stylesheet" href="../../assets/style/components/footer-v2.css">
     
       <link rel="stylesheet" href="https://unpkg.com/katex@0.16.10/dist/katex.min.css">
     
-      <link rel="stylesheet" href="../../assets/style/components/ai-bot-button.css">
+      <link rel="stylesheet" href="../../assets/style/components/superintern.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -91,7 +94,39 @@
 
     
     
-    
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "BNB Chain",
+  "url": "https://www.bnbchain.org",
+  "logo": "https://docs.bnbchain.org/assets/logo.svg",
+  "description": "BNB Chain is a community-driven and decentralized blockchain ecosystem for Web3 dApps",
+  "sameAs": [
+    "https://twitter.com/BNBChain",
+    "https://github.com/bnb-chain",
+    "https://discord.gg/bnbchain",
+    "https://t.me/bnbchain"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "BNB Chain Documentation",
+  "url": "https://docs.bnbchain.org",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://docs.bnbchain.org/?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
   </head>
   
   
@@ -275,7 +310,7 @@
             <a href="https://github.com/bnb-chain/bnb-chain.github.io" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
   </div>
   <div class="md-source__repository">
     BNB Chain GitHub
@@ -409,27 +444,17 @@
   
     
     
-      
-  
-  
-  
-  
-    
-    
       <li class="md-tabs__item">
-        <a href="../../showcase/mcp/" class="md-tabs__link">
+        <a href="../../developer-kit/" class="md-tabs__link">
           
   
   
     
   
-  Showcases
+  Developer Kit
 
         </a>
       </li>
-    
-  
-
     
   
 
@@ -449,6 +474,28 @@
     
   
   BNB Chain Fusion
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../faq/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  FAQ
 
         </a>
       </li>
@@ -496,7 +543,7 @@
       <a href="https://github.com/bnb-chain/bnb-chain.github.io" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
   </div>
   <div class="md-source__repository">
     BNB Chain GitHub
@@ -518,9 +565,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Home
+  
+
     
   </span>
+  
   
 
       </a>
@@ -570,9 +622,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Announcements
+  
+
     
   </span>
+  
   
 
       
@@ -650,9 +707,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     BNB Smart Chain
+  
+
     
   </span>
+  
   
 
             </a>
@@ -667,7 +729,11 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            BNB Smart Chain
+            
+  
+    BNB Smart Chain
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -685,9 +751,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Overview
+  
+
     
   </span>
+  
   
 
       </a>
@@ -717,9 +788,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Introduction
+  
+
     
   </span>
+  
   
 
           <span class="md-nav__icon md-icon"></span>
@@ -730,9 +806,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Introduction
+  
+
     
   </span>
+  
   
 
       </a>
@@ -755,7 +836,9 @@
         <li class="md-nav__item">
   <a href="#proof-of-staked-authority" class="md-nav__link">
     <span class="md-ellipsis">
-      Proof of Staked Authority
+      
+        Proof of Staked Authority
+      
     </span>
   </a>
   
@@ -764,7 +847,9 @@
         <li class="md-nav__item">
   <a href="#security" class="md-nav__link">
     <span class="md-ellipsis">
-      Security
+      
+        Security
+      
     </span>
   </a>
   
@@ -773,7 +858,9 @@
         <li class="md-nav__item">
   <a href="#fast-finality" class="md-nav__link">
     <span class="md-ellipsis">
-      Fast Finality
+      
+        Fast Finality
+      
     </span>
   </a>
   
@@ -782,7 +869,9 @@
         <li class="md-nav__item">
   <a href="#reward" class="md-nav__link">
     <span class="md-ellipsis">
-      Reward
+      
+        Reward
+      
     </span>
   </a>
   
@@ -791,7 +880,9 @@
         <li class="md-nav__item">
   <a href="#token-economy" class="md-nav__link">
     <span class="md-ellipsis">
-      Token Economy
+      
+        Token Economy
+      
     </span>
   </a>
   
@@ -800,7 +891,9 @@
         <li class="md-nav__item">
   <a href="#staking-and-governance" class="md-nav__link">
     <span class="md-ellipsis">
-      Staking and Governance
+      
+        Staking and Governance
+      
     </span>
   </a>
   
@@ -827,9 +920,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Ecosystem
+  
+
     
   </span>
+  
   
 
       </a>
@@ -847,6 +945,10 @@
     
     
       
+        
+      
+        
+          
         
       
         
@@ -880,23 +982,39 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" >
         
           
-          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="">
-            
+          <div class="md-nav__link md-nav__container">
+            <a href="../../developer-kit/" class="md-nav__link ">
+              
   
   
   <span class="md-ellipsis">
+    
+  
     Developers
+  
+
     
   </span>
   
+  
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_5" id="__nav_3_5_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
         
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_5">
             <span class="md-nav__icon md-icon"></span>
-            Developers
+            
+  
+    Developers
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -912,15 +1030,22 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Quick Guide
+  
+
     
   </span>
+  
   
 
       </a>
     </li>
   
 
+              
+            
               
             
               
@@ -935,9 +1060,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Dev-Tools
+  
+
     
   </span>
+  
   
 
       </a>
@@ -984,9 +1114,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     JSON-RPC
+  
+
     
   </span>
+  
   
 
       
@@ -1013,9 +1148,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Faucet
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1066,9 +1206,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Node Operators
+  
+
     
   </span>
+  
   
 
       
@@ -1125,9 +1270,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     EOA Paymaster
+  
+
     
   </span>
+  
   
 
       
@@ -1191,9 +1341,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Staking
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1202,7 +1357,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_6">
             <span class="md-nav__icon md-icon"></span>
-            Staking
+            
+  
+    Staking
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1218,9 +1377,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Overview
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1241,9 +1405,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     User Guide
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1264,9 +1433,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Build Staking dApps
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1328,9 +1502,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Governance
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1339,7 +1518,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_7_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_7">
             <span class="md-nav__icon md-icon"></span>
-            Governance
+            
+  
+    Governance
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1355,9 +1538,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Overview
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1378,9 +1566,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     User Guide
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1401,9 +1594,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     BNB Advocate`s Guide
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1424,9 +1622,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Temperature Check
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1447,9 +1650,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Governance APIs
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1515,9 +1723,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Validator
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1526,7 +1739,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_8_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_8">
             <span class="md-nav__icon md-icon"></span>
-            Validator
+            
+  
+    Validator
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1542,9 +1759,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Overview
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1565,9 +1787,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Run Validator
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1588,9 +1815,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Create Validator
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1611,9 +1843,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Secure Validator
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1634,9 +1871,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Key Management
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1689,9 +1931,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     MEV
+  
+
     
   </span>
+  
   
 
       
@@ -1748,9 +1995,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     EVN
+  
+
     
   </span>
+  
   
 
       
@@ -1814,9 +2066,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Slashing
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1825,7 +2082,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_9_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_9">
             <span class="md-nav__icon md-icon"></span>
-            Slashing
+            
+  
+    Slashing
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1841,9 +2102,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Overview
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1864,9 +2130,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Slash Rules
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1887,9 +2158,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Slash Monitor
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1918,9 +2194,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Cross Chain Bridge
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1941,9 +2222,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Benchmark
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1964,9 +2250,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     FAQ
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2032,9 +2323,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     opBNB
+  
+
     
   </span>
+  
   
 
       
@@ -2100,9 +2396,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     BNB Greenfield
+  
+
     
   </span>
+  
   
 
       
@@ -2124,6 +2425,14 @@
   
     
     
+      
+        
+          
+        
+      
+        
+      
+        
       
         
       
@@ -2155,26 +2464,25 @@
   
   
   
-    
-  
-  
-  
-    <a href="../../showcase/mcp/" class="md-nav__link">
+    <a href="../../developer-kit/" class="md-nav__link">
       
   
   
   <span class="md-ellipsis">
-    Showcases
+    
+  
+    Developer Kit
+  
+
     
   </span>
+  
   
 
       
         <span class="md-nav__icon md-icon"></span>
       
     </a>
-  
-
   
 
       
@@ -2224,9 +2532,77 @@
   
   
   <span class="md-ellipsis">
+    
+  
     BNB Chain Fusion
+  
+
     
   </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../faq/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FAQ
+  
+
+    
+  </span>
+  
   
 
       
@@ -2269,7 +2645,9 @@
         <li class="md-nav__item">
   <a href="#proof-of-staked-authority" class="md-nav__link">
     <span class="md-ellipsis">
-      Proof of Staked Authority
+      
+        Proof of Staked Authority
+      
     </span>
   </a>
   
@@ -2278,7 +2656,9 @@
         <li class="md-nav__item">
   <a href="#security" class="md-nav__link">
     <span class="md-ellipsis">
-      Security
+      
+        Security
+      
     </span>
   </a>
   
@@ -2287,7 +2667,9 @@
         <li class="md-nav__item">
   <a href="#fast-finality" class="md-nav__link">
     <span class="md-ellipsis">
-      Fast Finality
+      
+        Fast Finality
+      
     </span>
   </a>
   
@@ -2296,7 +2678,9 @@
         <li class="md-nav__item">
   <a href="#reward" class="md-nav__link">
     <span class="md-ellipsis">
-      Reward
+      
+        Reward
+      
     </span>
   </a>
   
@@ -2305,7 +2689,9 @@
         <li class="md-nav__item">
   <a href="#token-economy" class="md-nav__link">
     <span class="md-ellipsis">
-      Token Economy
+      
+        Token Economy
+      
     </span>
   </a>
   
@@ -2314,7 +2700,9 @@
         <li class="md-nav__item">
   <a href="#staking-and-governance" class="md-nav__link">
     <span class="md-ellipsis">
-      Staking and Governance
+      
+        Staking and Governance
+      
     </span>
   </a>
   
@@ -2330,6 +2718,55 @@
           
           
             <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    BNB Smart Chain
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
               <article class="md-content__inner md-typeset">
                 
                   
@@ -2345,10 +2782,10 @@
 
 
 <div><h1 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Link to this section">¶</a></h1>
-<p>BNB Smart Chain is an innovative solution to bring programmability and interoperability to BNB Beacon Chain. BNB Smart Chain relies on a system of 55 validators with Proof of Staked Authority (PoSA) consensus that can support short block time and lower fees. The most bonded validator candidates of staking will become validators and produce blocks. The double-sign detection, malicious vote detection and other slashing logic guarantee security, stability, and chain finality. 
-Other than the 32 active validators, BSC will introduce more validators, e.g. another 23 inactive validators, into the validator set as backups, which will be called “Candidates”.</p>
-<p>Candidates will produce blocks and charge gas fees in BSC mainnet, but in a much less chance than the official validator set of 32 elected. The unavailable candidates will be slashed as well though in a smaller size. A decent motivation is expected to be maintained so that the candidate validators are willing to ensure the quality and help secure BSC.</p>
-<p>In an extreme case, if a majority of the active 32 validators get attacked and offline, Candidate Validators can report to BNB Beacon Chain about the stale blocking, resume it and eventually propose a re-election of the active validator set.</p>
+<p>BNB Smart Chain is an innovative solution to bring programmability and interoperability to BNB Beacon Chain. BNB Smart Chain relies on a system of 45 validators with Proof of Staked Authority (PoSA) consensus that can support short block time and lower fees. The most bonded validator candidates of staking will become validators and produce blocks. The double-sign detection, malicious vote detection and other slashing logic guarantee security, stability, and chain finality. 
+The active validator set consists of 45 validators: 21 Cabinet and 24 Candidates. BSC may also introduce additional validators into the validator set as backups.</p>
+<p>Candidates will produce blocks and charge gas fees in BSC mainnet, but in a much less chance than the official validator set of 45 (21 Cabinet + 24 Candidates). The unavailable candidates will be slashed as well though in a smaller size. A decent motivation is expected to be maintained so that the candidate validators are willing to ensure the quality and help secure BSC.</p>
+<p>In an extreme case, if a majority of the active 45 validators get attacked and offline, Candidate Validators can report to BNB Beacon Chain about the stale blocking, resume it and eventually propose a re-election of the active validator set.</p>
 <p>The BNB Smart Chain also supports EVM-compatible smart contracts and protocols. Cross-chain transfer and other communication are possible due to native support of interoperability. The BNB Smart Chain will be:</p>
 <ul>
 <li><strong>A self-sovereign blockchain</strong>: Provides security and safety with elected validators.</li>
@@ -2370,8 +2807,8 @@ Other than the 32 active validators, BSC will introduce more validators, e.g. an
 <p>Fast finalization can greatly improve user experience. The <code>Fast Finality</code> feature will be enabled upon the coming Plato upgrade. This will be a major advantage of BSC, and many dapps will benefit from it.</p>
 <p>The consensus protocol of BSC fulfills the following goals:</p>
 <ol>
-<li>Short Blocking time, 3 seconds on mainnet.</li>
-<li>It requires quite short time to confirm the finality of transactions, around 6s for mainnet after the coming Plato upgrade.</li>
+<li>Short block time, <strong>0.45 seconds</strong> on mainnet (reduced from 3s through the Lorentz, Maxwell, and Fermi hardforks).</li>
+<li>It requires very short time to confirm the finality of transactions, approximately <strong>1 second</strong> on mainnet with Fast Finality enabled.</li>
 <li>There is no inflation of native token: BNB, the block reward is collected from transaction fees, and it will be paid in BNB.</li>
 <li>It is 100% compatible with Ethereum system.</li>
 <li>It allows modern proof-of-stake blockchain network governance.</li>
@@ -2379,11 +2816,11 @@ Other than the 32 active validators, BSC will introduce more validators, e.g. an
 <h2 id="security">Security<a class="headerlink" href="#security" title="Link to this section">¶</a></h2>
 <p>Given there are more than ½*N+1 validators are honest, PoA based networks usually work securely and properly. However, there are still cases where certain amount Byzantine validators may still manage to attack the network, e.g. through the <a href="https://arxiv.org/pdf/1902.10244.pdf">Clone Attack</a>. BSC does introduce Slashing logic to penalize Byzantine validators for double signing or inavailability. This Slashing logic will expose the malicious validators in a very short time and make the “Clone Attack” very hard or extremely non-beneficial to execute.</p>
 <h2 id="fast-finality">Fast Finality<a class="headerlink" href="#fast-finality" title="Link to this section">¶</a></h2>
-<p>Finality is critical for blockchain security, once the block is finalized, it wouldn’t be reverted anymore. The fast finality feature is very useful, the users can make sure they get the accurate information from the latest finalized block, then they can decide what to do next instantly. More details of design, please to refer <a href="https://github.com/bnb-chain/BEPs/blob/master/BEPs/BEP126.md">BEP-126</a></p>
-<p>Before the coming Plato upgrade,to secure as much as BC, BSC users are encouraged to wait until receiving blocks sealed by more than ⅔*N+1 different validators. In that way, the BSC can be trusted at a similar security level to BC and can tolerate less than ⅓*N Byzantine validators.With 21 validators, if the block time is 3 seconds, the ⅔*N+1 different validator seals will need a time period of (⅔*21+1)*3 = 45 seconds. Any critical applications for BSC may have to wait for ⅔*N+1 to ensure a relatively secure finality. With above enhancement by slashing mechanism, ½*N+1 or even fewer blocks are enough as confirmation for most transactions.</p>
-<p>After the coming Plato upgrade, the feature <code>Fast Finality</code> will be enabled. The chain will be finalized within two blocks if ⅔*N or more validators vote normally, otherwise the chain has a fixed number of blocks to reach probabilistic finality as before.</p>
+<p>Finality is critical for blockchain security, once the block is finalized, it wouldn’t be reverted anymore. The fast finality feature is very useful, the users can make sure they get the accurate information from the latest finalized block, then they can decide what to do next instantly. More details of design, please refer to <a href="https://github.com/bnb-chain/BEPs/blob/master/BEPs/BEP126.md">BEP-126</a></p>
+<p>With Fast Finality enabled (since the Plato upgrade), the chain is finalized within two blocks if ⅔<em>N or more validators vote normally. At the current block time of *</em>0.45 seconds<strong>, this means finality is achieved in approximately **1.125 seconds</strong>. If Fast Finality votes are insufficient, the chain falls back to probabilistic finality where more confirmations increase safety.</p>
+<p>For applications that need guaranteed finality, the <code>finalized</code> block tag in JSON-RPC calls (e.g., <code>eth_getBlockByNumber</code>) can be used to query only finalized blocks.</p>
 <h2 id="reward">Reward<a class="headerlink" href="#reward" title="Link to this section">¶</a></h2>
-<p>All the BSC validators in the current validator set will be rewarded with transaction fees in BNB. As BNB is not an inflationary token, there will be no mining rewards as what Bitcoin and Ethereum network generate, and the gas fee is the major reward for validators. After the coming Plato upgrade, part of the fees collected will be used as reward for finality voting. As BNB is also utility tokens with other use cases, delegators and validators will still enjoy other benefits of holding BNB.</p>
+<p>All the BSC validators in the current validator set will be rewarded with transaction fees in BNB. As BNB is not an inflationary token, there will be no mining rewards as what Bitcoin and Ethereum network generate, and the gas fee is the major reward for validators. Part of the fees collected is used as reward for finality voting. As BNB is also utility tokens with other use cases, delegators and validators will still enjoy other benefits of holding BNB.</p>
 <p>The reward for validators is the fees collected from transactions in each block. Validators can decide how much to give back to the delegators who stake their BNB to them, in order to attract more staking. Every validator will take turns to produce the blocks in the same probability (if they stick to 100% liveness), thus, in the long run, all the stable validators may get a similar size of the reward. Meanwhile, the stakes on each validator may be different, so this brings a counter-intuitive situation that more users trust and delegate to one validator, they potentially get less reward. So rational delegators will tend to delegate to the one with fewer stakes as long as the validator is still trustful (insecure validator may bring slashable risk). In the end, the stakes on all the validators will have less variation. This will actually prevent the stake concentration and “winner wins forever” problem seen on some other networks.</p>
 <h2 id="token-economy">Token Economy<a class="headerlink" href="#token-economy" title="Link to this section">¶</a></h2>
 <p>BC and BSC share the same token universe for BNB and BEP2 tokens. This defines:</p>
@@ -2409,8 +2846,26 @@ Other than the 32 active validators, BSC will introduce more validators, e.g. an
 
 
   
+    
+  
   
 
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Last update">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="March 16, 2026 09:17:55 UTC">March 16, 2026</span>
+  </span>
+
+    
+    
+    
+    
+  </aside>
 
 
   
@@ -2447,11 +2902,11 @@ Other than the 32 active validators, BSC will introduce more validators, e.g. an
   </div>
 </footer>
 <div class="ai-bot-wrapper">
-    <button type="button" class="ask-ai-button" aria-label="Toggle AI Chat">
+    <button type="button" class="ask-ai-button" aria-label="Open AI Chat">
         Ask AI
-        <span>
-            <svg data-theme="dark" viewBox="0 0 24 25" focusable="false" aria-hidden="true"><path d="M10.5 6.58644L10.9459 7.82537C11.1908 8.5045 11.5824 9.12128 12.0929 9.63177C12.6034 10.1423 13.2202 10.5339 13.8993 10.7788L15.1383 11.2247C15.2501 11.2648 15.2501 11.4232 15.1383 11.4634L13.8992 11.9093C13.2201 12.1542 12.6033 12.5459 12.0929 13.0563C11.5824 13.5668 11.1908 14.1836 10.9459 14.8627L10.5 16.1016C10.4597 16.2135 10.3015 16.2135 10.2611 16.1016L9.81524 14.8627C9.57032 14.1836 9.17867 13.5669 8.66818 13.0564C8.1577 12.546 7.54093 12.1543 6.86182 11.9095L5.62306 11.4636C5.51106 11.4234 5.51106 11.265 5.62306 11.2248L6.86182 10.779C7.54095 10.5341 8.15773 10.1424 8.66821 9.63195C9.1787 9.12146 9.57034 8.50468 9.81524 7.82555L10.2611 6.58662C10.2699 6.56193 10.286 6.54056 10.3074 6.52545C10.3288 6.51034 10.3544 6.50222 10.3806 6.50222C10.4068 6.50222 10.4323 6.51034 10.4537 6.52545C10.4751 6.54056 10.4913 6.56193 10.5 6.58662V6.58644ZM16.0771 3.60937L16.3034 4.23657C16.5548 4.93239 17.1027 5.48102 17.7992 5.73239L18.4264 5.9587C18.439 5.96307 18.4499 5.97124 18.4576 5.98207C18.4653 5.9929 18.4694 6.00586 18.4694 6.01915C18.4694 6.03244 18.4653 6.0454 18.4576 6.05623C18.4499 6.06706 18.439 6.07523 18.4264 6.07959L17.7991 6.3059C17.4552 6.43009 17.1429 6.6285 16.8844 6.88703C16.6258 7.14555 16.4274 7.45785 16.3032 7.80173L16.0769 8.42875C16.0726 8.4413 16.0644 8.45218 16.0536 8.45988C16.0427 8.46758 16.0298 8.47171 16.0165 8.47171C16.0032 8.47171 15.9902 8.46758 15.9794 8.45988C15.9686 8.45218 15.9604 8.4413 15.956 8.42875L15.7297 7.80173C15.6055 7.45785 15.4071 7.14555 15.1486 6.88703C14.8901 6.6285 14.5778 6.43009 14.2339 6.3059L13.6069 6.07959C13.5943 6.07523 13.5835 6.06706 13.5758 6.05623C13.5681 6.0454 13.5639 6.03244 13.5639 6.01915C13.5639 6.00586 13.5681 5.9929 13.5758 5.98207C13.5835 5.97124 13.5943 5.96307 13.6069 5.9587L14.2339 5.73239C14.9297 5.48084 15.4784 4.93293 15.7297 4.23639L15.956 3.60937C15.9604 3.59682 15.9686 3.58594 15.9794 3.57824C15.9902 3.57054 16.0032 3.56641 16.0165 3.56641C16.0298 3.56641 16.0427 3.57054 16.0536 3.57824C16.0644 3.58594 16.0726 3.59682 16.0769 3.60937H16.0771ZM16.0771 14.2607L16.3034 14.8878C16.5548 15.5836 17.1027 16.1322 17.7992 16.3836L18.4264 16.6101C18.439 16.6144 18.4499 16.6226 18.4576 16.6334C18.4653 16.6443 18.4694 16.6572 18.4694 16.6705C18.4694 16.6838 18.4653 16.6968 18.4576 16.7076C18.4499 16.7184 18.439 16.7266 18.4264 16.731L17.7991 16.9571C17.4552 17.0813 17.1429 17.2797 16.8844 17.5382C16.6258 17.7968 16.4274 18.1091 16.3032 18.4529L16.0769 19.0799C16.0726 19.0925 16.0644 19.1034 16.0536 19.1111C16.0427 19.1188 16.0298 19.1229 16.0165 19.1229C16.0032 19.1229 15.9902 19.1188 15.9794 19.1111C15.9686 19.1034 15.9604 19.0925 15.956 19.0799L15.7297 18.4529C15.6055 18.1091 15.4071 17.7968 15.1486 17.5382C14.8901 17.2797 14.5778 17.0813 14.2339 16.9571L13.6071 16.7308C13.5945 16.7264 13.5836 16.7183 13.5759 16.7074C13.5682 16.6966 13.5641 16.6836 13.5641 16.6703C13.5641 16.6571 13.5682 16.6441 13.5759 16.6333C13.5836 16.6224 13.5945 16.6143 13.6071 16.6099L14.2341 16.3836C14.9299 16.1322 15.4785 15.5843 15.7299 14.8878L15.9562 14.2607C15.9606 14.2482 15.9688 14.2373 15.9796 14.2296C15.9904 14.2219 16.0034 14.2178 16.0167 14.2178C16.03 14.2178 16.0429 14.2219 16.0537 14.2296C16.0646 14.2373 16.0727 14.2482 16.0771 14.2607Z" fill="currentColor"></path></svg>
-        </span>
+        <svg viewBox="0 0 24 25" aria-hidden="true">
+            <path d="M10.5 6.58644L10.9459 7.82537C11.1908 8.5045 11.5824 9.12128 12.0929 9.63177C12.6034 10.1423 13.2202 10.5339 13.8993 10.7788L15.1383 11.2247C15.2501 11.2648 15.2501 11.4232 15.1383 11.4634L13.8992 11.9093C13.2201 12.1542 12.6033 12.5459 12.0929 13.0563C11.5824 13.5668 11.1908 14.1836 10.9459 14.8627L10.5 16.1016C10.4597 16.2135 10.3015 16.2135 10.2611 16.1016L9.81524 14.8627C9.57032 14.1836 9.17867 13.5669 8.66818 13.0564C8.1577 12.546 7.54093 12.1543 6.86182 11.9095L5.62306 11.4636C5.51106 11.4234 5.51106 11.265 5.62306 11.2248L6.86182 10.779C7.54095 10.5341 8.15773 10.1424 8.66821 9.63195C9.1787 9.12146 9.57034 8.50468 9.81524 7.82555L10.2611 6.58662C10.2699 6.56193 10.286 6.54056 10.3074 6.52545C10.3288 6.51034 10.3544 6.50222 10.3806 6.50222C10.4068 6.50222 10.4323 6.51034 10.4537 6.52545C10.4751 6.54056 10.4913 6.56193 10.5 6.58662V6.58644ZM16.0771 3.60937L16.3034 4.23657C16.5548 4.93239 17.1027 5.48102 17.7992 5.73239L18.4264 5.9587C18.439 5.96307 18.4499 5.97124 18.4576 5.98207C18.4653 5.9929 18.4694 6.00586 18.4694 6.01915C18.4694 6.03244 18.4653 6.0454 18.4576 6.05623C18.4499 6.06706 18.439 6.07523 18.4264 6.07959L17.7991 6.3059C17.4552 6.43009 17.1429 6.6285 16.8844 6.88703C16.6258 7.14555 16.4274 7.45785 16.3032 7.80173L16.0769 8.42875C16.0726 8.4413 16.0644 8.45218 16.0536 8.45988C16.0427 8.46758 16.0298 8.47171 16.0165 8.47171C16.0032 8.47171 15.9902 8.46758 15.9794 8.45988C15.9686 8.45218 15.9604 8.4413 15.956 8.42875L15.7297 7.80173C15.6055 7.45785 15.4071 7.14555 15.1486 6.88703C14.8901 6.6285 14.5778 6.43009 14.2339 6.3059L13.6069 6.07959C13.5943 6.07523 13.5835 6.06706 13.5758 6.05623C13.5681 6.0454 13.5639 6.03244 13.5639 6.01915C13.5639 6.00586 13.5681 5.9929 13.5758 5.98207C13.5835 5.97124 13.5943 5.96307 13.6069 5.9587L14.2339 5.73239C14.9297 5.48084 15.4784 4.93293 15.7297 4.23639L15.956 3.60937C15.9604 3.59682 15.9686 3.58594 15.9794 3.57824C15.9902 3.57054 16.0032 3.56641 16.0165 3.56641C16.0298 3.56641 16.0427 3.57054 16.0536 3.57824C16.0644 3.58594 16.0726 3.59682 16.0769 3.60937H16.0771ZM16.0771 14.2607L16.3034 14.8878C16.5548 15.5836 17.1027 16.1322 17.7992 16.3836L18.4264 16.6101C18.439 16.6144 18.4499 16.6226 18.4576 16.6334C18.4653 16.6443 18.4694 16.6572 18.4694 16.6705C18.4694 16.6838 18.4653 16.6968 18.4576 16.7076C18.4499 16.7184 18.439 16.7266 18.4264 16.731L17.7991 16.9571C17.4552 17.0813 17.1429 17.2797 16.8844 17.5382C16.6258 17.7968 16.4274 18.1091 16.3032 18.4529L16.0769 19.0799C16.0726 19.0925 16.0644 19.1034 16.0536 19.1111C16.0427 19.1188 16.0298 19.1229 16.0165 19.1229C16.0032 19.1229 15.9902 19.1188 15.9794 19.1111C15.9686 19.1034 15.9604 19.0925 15.956 19.0799L15.7297 18.4529C15.6055 18.1091 15.4071 17.7968 15.1486 17.5382C14.8901 17.2797 14.5778 17.0813 14.2339 16.9571L13.6071 16.7308C13.5945 16.7264 13.5836 16.7183 13.5759 16.7074C13.5682 16.6966 13.5641 16.6836 13.5641 16.6703C13.5641 16.6571 13.5682 16.6441 13.5759 16.6333C13.5836 16.6224 13.5945 16.6143 13.6071 16.6099L14.2341 16.3836C14.9299 16.1322 15.4785 15.5843 15.7299 14.8878L15.9562 14.2607C15.9606 14.2482 15.9688 14.2373 15.9796 14.2296C15.9904 14.2219 16.0034 14.2178 16.0167 14.2178C16.03 14.2178 16.0429 14.2219 16.0537 14.2296C16.0646 14.2373 16.0727 14.2482 16.0771 14.2607Z" fill="currentColor"/>
+        </svg>
     </button>
 </div>
 
@@ -2538,24 +2993,26 @@ Other than the 32 active validators, BSC will introduce more validators, e.g. an
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": ["search.suggest", "search.highlight", "search.share", "navigation.instant", "navigation.tracking", "navigation.integration", "navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.sections", "navigation.prune", "navigation.path", "navigation.top", "navigation.footer", "toc.follow", "content.code.copy", "content.action.edit", "content.tooltips"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["search.suggest", "search.highlight", "search.share", "navigation.instant", "navigation.tracking", "navigation.integration", "navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.sections", "navigation.prune", "navigation.path", "navigation.top", "navigation.footer", "toc.follow", "content.code.copy", "content.action.edit", "content.tooltips"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
 
-      <script src="../../assets/javascripts/bundle.92b07e13.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../../assets/js/mathjax.js"></script>
       
         <script src="../../assets/js/custom.js"></script>
       
-        <script src="../../assets/js/inkeep-custom-button.js"></script>
+        <script src="../../assets/js/superintern.js"></script>
       
-        <script src="../../assets/js/footer-menu.js"></script>
+        <script src="../../assets/js/footer-menu-v2.js"></script>
       
     
 <script src="https://unpkg.com/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha384-Wuix6BuhrWbjDBs24bXrjf4ZQ5aFeFWBuKkFekO2t8xFU0iNaLQfp2K6/1Nxveei" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/katex@0.16.10/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"></script>
+<script src="https://cdn.superintern.ai/sdk/embed.global.js" crossorigin="anonymous"></script>
 
   </body>
 </html>
