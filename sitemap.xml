@@ -6,7 +6,7 @@
     </url>
     <url>
          <loc>https://docs.bnbchain.org/announce/</loc>
-         <lastmod>2026-07-22</lastmod>
+         <lastmod>2026-09-20</lastmod>
     </url>
     <url>
          <loc>https://docs.bnbchain.org/announce/altai-gnfd/</loc>
@@ -47,6 +47,10 @@
     <url>
          <loc>https://docs.bnbchain.org/announce/haber-opbnb/</loc>
          <lastmod>2024-06-19</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/announce/jenner-bsc/</loc>
+         <lastmod>2026-11-03</lastmod>
     </url>
     <url>
          <loc>https://docs.bnbchain.org/announce/lorentz-bsc/</loc>
@@ -842,7 +846,7 @@
     </url>
     <url>
          <loc>https://docs.bnbchain.org/developer-kit/bnbagent-sdk/examples/</loc>
-         <lastmod>2026-06-19</lastmod>
+         <lastmod>2026-08-23</lastmod>
     </url>
     <url>
          <loc>https://docs.bnbchain.org/developer-kit/bnbagent-sdk/networks/</loc>
@@ -858,11 +862,11 @@
     </url>
     <url>
          <loc>https://docs.bnbchain.org/developer-kit/bnbagent-sdk/security/</loc>
-         <lastmod>2026-06-19</lastmod>
+         <lastmod>2026-08-23</lastmod>
     </url>
     <url>
          <loc>https://docs.bnbchain.org/developer-kit/bnbagent-sdk/troubleshooting/</loc>
-         <lastmod>2026-06-19</lastmod>
+         <lastmod>2026-08-23</lastmod>
     </url>
     <url>
          <loc>https://docs.bnbchain.org/developer-kit/bnbchain-studio/</loc>
@@ -894,7 +898,7 @@
     </url>
     <url>
          <loc>https://docs.bnbchain.org/developer-kit/bnbchain-studio/security/</loc>
-         <lastmod>2026-06-19</lastmod>
+         <lastmod>2026-08-23</lastmod>
     </url>
     <url>
          <loc>https://docs.bnbchain.org/developer-kit/bnbchain-studio/troubleshooting/</loc>
@@ -946,15 +950,51 @@
     </url>
     <url>
          <loc>https://docs.bnbchain.org/faq/</loc>
-         <lastmod>2026-09-10</lastmod>
+         <lastmod>2026-11-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/faq/bep-675-mev-bundle-transaction-delay-concern/</loc>
+         <lastmod>2026-10-19</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/faq/bsc-validator-node-fails-to-start-with-missing-ancient-data-file-when-using-prun/</loc>
+         <lastmod>2026-10-19</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/faq/how-do-i-update-my-validator-nodes-profile-name-logo-and-contact-information/</loc>
+         <lastmod>2026-10-28</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/faq/prop-amm-and-relayer-benefits-for-trading/</loc>
+         <lastmod>2026-10-19</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/faq/propamm-contract-interface-mismatch-compared-to-ethereum/</loc>
+         <lastmod>2026-11-09</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/faq/refreshing-token-metadata-on-bscscan-after-proxy-upgrade/</loc>
+         <lastmod>2026-10-19</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/faq/request-for-offline-full-block-and-transaction-data/</loc>
+         <lastmod>2026-11-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/faq/reth-node-crash-with-enospc-datablobstore-reached-ext4-directory-index-limit/</loc>
+         <lastmod>2026-11-09</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/faq/when-is-the-deadline-for-the-bsc-v182-mainnet-jenner-hardfork-upgrade/</loc>
+         <lastmod>2026-11-09</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/faq/which-reth-bsc-version-should-node-operators-use/</loc>
+         <lastmod>2026-11-13</lastmod>
     </url>
     <url>
          <loc>https://docs.bnbchain.org/faq/bsc/</loc>
-         <lastmod>2026-09-10</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.bnbchain.org/faq/opbnb/</loc>
-         <lastmod>2026-09-10</lastmod>
+         <lastmod>2026-11-13</lastmod>
     </url>
     <url>
          <loc>https://docs.bnbchain.org/join-ecosystem/</loc>
@@ -971,5 +1011,109 @@
     <url>
          <loc>https://docs.bnbchain.org/join-ecosystem/platforms/electrical-capital/</loc>
          <lastmod>2024-07-15</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/newl1/</loc>
+         <lastmod>2026-11-11</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/newl1/overview/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/newl1/core-concepts/account-abstraction/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/newl1/core-concepts/async-execution/</loc>
+         <lastmod>2026-10-22</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/newl1/core-concepts/consensus/</loc>
+         <lastmod>2026-10-22</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/newl1/core-concepts/cross-chain-bridge/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/newl1/core-concepts/multi-lane/</loc>
+         <lastmod>2026-10-22</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/newl1/core-concepts/privacy/</loc>
+         <lastmod>2026-10-22</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/newl1/core-concepts/state-db/</loc>
+         <lastmod>2026-10-22</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/newl1/core-concepts/tx-preconfirmation/</loc>
+         <lastmod>2026-10-22</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/newl1/developers/cross-chain-bridge/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/newl1/developers/examples/</loc>
+         <lastmod>2026-11-11</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/newl1/developers/foundry/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/newl1/developers/quick-guide/</loc>
+         <lastmod>2026-11-11</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/newl1/developers/transaction-lifecycle/</loc>
+         <lastmod>2026-11-11</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/newl1/developers/transaction-types/</loc>
+         <lastmod>2026-10-22</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/newl1/developers/json_rpc/json-rpc-endpoint/</loc>
+         <lastmod>2026-10-29</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/newl1/developers/json_rpc/newl1-api-list/</loc>
+         <lastmod>2026-10-22</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/newl1/faq/</loc>
+         <lastmod>2026-11-11</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/newl1/faq/general/</loc>
+         <lastmod>2026-11-11</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/newl1/faq/integration/</loc>
+         <lastmod>2026-11-11</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/newl1/get-started/migrate-from-bsc/</loc>
+         <lastmod>2026-11-11</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/newl1/get-started/network-info/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/newl1/governance/overview/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/newl1/governance/system-contracts/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.bnbchain.org/propamms/</loc>
+         <lastmod>2026-10-13</lastmod>
     </url>
 </urlset>
